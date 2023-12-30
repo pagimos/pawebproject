@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #c2ddee;
+}
+#navbarNavDropdown ul li a {
+  color: #fff;
+  font-weight: 500;
+}
+.container {
+  height: 88vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar {
+  background: #0f273a;
+}
+.title {
+  color: #000;
+  font-family: serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+.Main-title {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.book {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+}
+.etudiant {
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div {
+  background-color: #f4f9fb;
+
+  width: 400px;
+  padding: 15px;
+  border-radius: 30px;
+}
+.main {
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #c2ddee;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 30px;
+  width: 350px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.main a {
+  text-decoration: none;
+  color: #000;
+}
+.main:hover {
+  color: #f4f9fb;
+  background-color: #0081d1;
+  transform: scale(1.05);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.addnew {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.addnew input {
+  padding: 10px;
+  border-radius: 10px;
+}
+.addnew button {
+  padding: 10px;
+  background-color: rgb(8, 216, 8);
+  color: white;
+  font-weight: 800;
+  border-radius: 25px;
+  width: 100px;
+  margin: auto;
+}
+.addbtn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0f273a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.addbtncontainer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-family: serif;
+}
+.edit {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px;
+}
+.delete {
+  background-color: red;
+  border-radius: 5px;
+  padding: 2px;
+  color: #fff;
+}
+.save {
+  background-color: rgb(8, 216, 8);
+  border-radius: 5px;
+  padding: 2px;
+  color: #fff;
+}
+.formbtn {
+  margin: auto;
+}
