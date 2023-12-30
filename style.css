@@ -64,8 +64,9 @@ body {
   width: 350px;
   font-size: 20px;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
-.main a {
+a {
   text-decoration: none;
   color: #000;
 }
@@ -87,7 +88,8 @@ h1 {
 }
 
 table {
-  width: 100%;
+  width: 1280px;
+  margin: auto;
   border-collapse: collapse;
 }
 
