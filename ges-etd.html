@@ -80,11 +80,14 @@
     </div>
     <div id="addForm" style="display: none" class="addnew">
       <!-- Add input fields for each property -->
-      <input type="text" id="numCarte" placeholder="Numéro de la carte" />
+
       <input type="text" id="nom" placeholder="Nom" />
       <input type="text" id="prenom" placeholder="Prénom" />
-      <input type="text" id="annee" placeholder="Année" />
       <input type="email" id="email" placeholder="Adresse Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <input type="number" id="numCarte" placeholder="Matricule" />
+      <input type="number" id="Annee" placeholder="Année" />
+
       <div class="formbtn">
         <button onclick="addNewPerson()">Ajouter</button>
         <button style="background-color: orange" onclick="toggleForm()">
@@ -96,11 +99,15 @@
     <table id="peopleTable">
       <thead>
         <tr>
-          <th>Numéro de la Carte</th>
           <th>Nom</th>
           <th>Prénom</th>
-          <th>Année</th>
           <th>Adresse Email</th>
+          <th>Password</th>
+          <th>Matricule</th>
+          <th>Annee</th>
+          <th>Commentaires</th>
+          <th>Cour</th>
+
           <th>Actions</th>
         </tr>
       </thead>
