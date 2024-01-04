@@ -45,7 +45,7 @@ function deletePerson(btn) {
   var row = btn.parentNode.parentNode;
   row.parentNode.removeChild(row);
 }
-
+// hbast hna ********************************************************************************************************
 // Function to add a new person to the table
 function addNewPerson() {
   var table = document.getElementById("peopleTable");
